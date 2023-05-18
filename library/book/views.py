@@ -43,3 +43,6 @@ def delete_book(request,book_id):
         return redirect('home')
     book_shelf.delete()
     return redirect('home')
+
+def add():
+    pass
